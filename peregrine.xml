@@ -6,16 +6,16 @@
 			<Filename>ResurrectionRemix-N-v5.8.0-20161204-peregrine</Filename>
 			<RomUrl
 				id="rom"
-				title="Resurrection Remix ROM"
-				description="Download ResurrectionRemix builds">https://www.androidfilehost.com/?fid=385035244224403787</RomUrl>
+				title="Resurrection Remix (Peregrine)"
+				description="Download Resurrection Remix builds">https://www.androidfilehost.com/?fid=385035244224403787</RomUrl>
 			<ChangelogUrl
 				id="changelog"
 				title="Changelog"
-				description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/nougat/CHANGELOG.mkdn</ChangelogUrl>
+				description="View Changelog!">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/nougat/CHANGELOG.mkdn</ChangelogUrl>
 			<OpenGappsUrl
 				id="open_gapps"
-				title="Google Apps (OpenGAPPS)"
-				description="Download Open Latest Gapps">http://opengapps.org</OpenGappsUrl>
+				title="Google Apps (OpenGApps)"
+				description="Download Google Apps!">http://opengapps.org</OpenGappsUrl>
 		</peregrine>
 	</Stable>
 </SlimOTA>
