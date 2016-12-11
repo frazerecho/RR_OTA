@@ -3,11 +3,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
 	<Stable>
 		<peregrine>
-			<Filename>ResurrectionRemix-N-v5.8.0-20161204-peregrine</Filename>
+			<Filename>ResurrectionRemix-N-v5.8.0-20161211-peregrine</Filename>
 			<RomUrl
 				id="rom"
 				title="Resurrection Remix (Peregrine)"
-				description="Download Resurrection Remix builds">https://www.androidfilehost.com/?fid=385035244224403787</RomUrl>
+				description="Download Resurrection Remix build!">https://www.androidfilehost.com/?fid=745425885120692948</RomUrl>
 			<ChangelogUrl
 				id="changelog"
 				title="Changelog"
