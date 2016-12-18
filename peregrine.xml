@@ -11,7 +11,7 @@
 			<ChangelogUrl
 				id="changelog"
 				title="Changelog"
-				description="View Changelog!">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/nougat/CHANGELOG.mkdn</ChangelogUrl>
+				description="View Changelog!">https://raw.githubusercontent.com/frazerecho/RR_OTA/master/CHANGELOG.mkdn</ChangelogUrl>
 			<OpenGappsUrl
 				id="open_gapps"
 				title="Google Apps (OpenGApps)"
