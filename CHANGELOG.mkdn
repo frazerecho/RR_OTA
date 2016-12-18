@@ -1,0 +1,338 @@
+
+ ▼ Resurrection Remix Nougat Ver 5.8.0 Changelog
+
+
+ ▼ 12/18/2016
+
+
+ ▪ project android/
+ ▪ bf56192 Update README.mkdn
+
+ ▪ project hardware/qcom/fm/
+ ▪ f0dda9e Automatic translation import
+
+ ▪ project packages/apps/AudioFX/
+ ▪ 0726d88 Automatic translation import
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 794758b Automatic translation import
+
+ ▪ project packages/apps/Browser/
+ ▪ ebd2f7d Automatic translation import
+
+ ▪ project packages/apps/CMBugReport/
+ ▪ 8e70f2f Automatic translation import
+
+ ▪ project packages/apps/CMFileManager/
+ ▪ bd595be Automatic translation import
+
+ ▪ project packages/apps/CMUpdater/
+ ▪ eac59d5 Automatic translation import
+
+ ▪ project packages/apps/Calendar/
+ ▪ c0d86c2 Automatic translation import
+
+ ▪ project packages/apps/Camera2/
+ ▪ f6e4362 camera2: Ask for PREVENT_POWER_KEY, not PREVENT_SYSTEM_KEYS permission
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 3f413e4 Automatic translation import
+
+ ▪ project packages/apps/Gello/
+ ▪ ccf2faf Automatic translation import
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 2fe8914 Automatic translation import
+
+ ▪ project packages/apps/Profiles/
+ ▪ 5187937 Automatic translation import
+
+ ▪ project packages/apps/Screencast/
+ ▪ 7e5714a Automatic translation import
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ 2e1593c Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 8462b44 Automatic translation import
+
+ ▪ project packages/apps/SoundRecorder/
+ ▪ 45a9e20 Automatic translation import
+
+ ▪ project packages/apps/ThemeChooser/
+ ▪ 2a27b9b Automatic translation import
+
+ ▪ project packages/apps/Trebuchet/
+ ▪ c9637ec Automatic translation import
+
+ ▪ project packages/providers/DataUsageProvider/
+ ▪ 6a6307d Automatic translation import
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ a328ecb Automatic translation import
+
+ ▪ project packages/providers/WeatherProvider/
+ ▪ 1d663e0 Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ ccdac6b Automatic translation import
+
+ ▪ project packages/services/LiveLockScreenService/
+ ▪ c1b207e Automatic translation import
+
+ ▪ project packages/services/ThemeManagerService/
+ ▪ b7255ae Automatic translation import
+
+ ▪ project packages/services/WeatherService/
+ ▪ 8286a31 Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ 8ade979 vendor: add RR_BUILDTYPE
+ ▪ 6bfc168 Update github changelog and readme
+
+ ▪ project vendor/cmsdk/
+ ▪ 1b312ad Automatic translation import
+
+ ▼ 12/17/2016
+
+
+ ▪ project android/
+ ▪ 8a11671 manifest: track own art/skia
+
+ ▪ project frameworks/base/
+ ▪ 240d9cf Remove Uneeded Style
+
+ ▪ project vendor/lge/
+ ▪ 03df5a4 Merge pull request #245 from jpjust/cm-14.1
+
+ ▼ 12/16/2016
+
+
+ ▪ project android/
+ ▪ 2d3da93 Fix repo sync
+ ▪ b0ddb61 Merge github.com:ResurrectionRemix/platform_manifest into nougat
+
+ ▪ project device/qcom/common/
+ ▪ 5a54ae4 extractors: Split 32/64 makefiles
+
+ ▪ project packages/apps/AudioFX/
+ ▪ c5a438a Automatic translation import
+
+ ▪ project packages/apps/Snap/
+ ▪ 51281be Automatic translation import
+
+ ▪ project vendor/lge/
+ ▪ 747bedd Using v4xx-common proprietary blobs.
+ ▪ 1aa9411 g5: Initial blobs
+
+ ▪ project vendor/qcom/binaries/
+ ▪ 4d4d7ec graphic: Split msm8916 32 and 64 bit makefiles
+
+ ▼ 12/15/2016
+
+
+ ▪ project build/kati/
+ ▪ bc43789 Do not limit threads upon calling legacy GNU make
+ ▪ 42a270b Merge github.com:google/kati into HEAD
+
+ ▪ project device/lge/g3-common/
+ ▪ 585edbd g3: wcnss: update from D85530c
+
+ ▪ project external/vim/
+ ▪ a7b10a8 Merge tag 'v8.0.0133' into HEAD
+
+ ▪ project frameworks/base/
+ ▪ fc82e2a Fix NPE caused by custom small QS tiles
+ ▪ 367b09d Also block touches while customizer is animating.
+ ▪ c2567f7 Bring back 'custom small QS tiles' [1/2]
+ ▪ ab8fa40 FWB:Add a Switch to Enable Disable Dyanamic Navbar[1/2]
+ ▪ 3e498b9 base: dynamic navbar colors
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 42419ca Automatic translation import
+
+ ▪ project packages/apps/Settings/
+ ▪ 847cc22 Add LG L Fino Maintainer
+ ▪ b063c36 Bring Back Small QS Tilex [2/2]
+ ▪ d5c94b5 Settings:Add a Switch to Enable Disable Dyanamic Navbar[2/2]
+
+ ▪ project system/bt/
+ ▪ 69d13f7 Bluetooth: silence logspam
+
+ ▪ project vendor/lge/
+ ▪ 19ffe10 g4: update liboemcrypto from bullhead for widevine
+ ▪ 2bb59e5 v480 bringup
+ ▪ acf27b9 Merge pull request #242 from Shelnutt2/cm-14.1
+ ▪ b2fb644 ls990: Add pn544 firmware
+ ▪ 3bcab24 ls990: Remove prebuilt ril
+
+ ▼ 12/14/2016
+
+
+ ▪ project android/
+ ▪ 152a27b 7.1.1_r6
+
+ ▪ project build/
+ ▪ 9664207 Merge branch 'cm-14.1' of https://github.com/CyanogenMod/android_build into nougat
+
+ ▪ project frameworks/av/
+ ▪ bca4f83 Merge branch 'cm-14.1' of https://github.com/CyanogenMod/android_frameworks_av into nougat
+
+ ▪ project frameworks/base/
+ ▪ 2006790 Merge branch 'nougat' of https://github.com/ResurrectionRemix/android_frameworks_base into nougat
+ ▪ 31f0227 Store Network Mode selected in subId Table.
+ ▪ f6c5a04 Merge tag 'android-7.1.1_r6' into HEAD
+ ▪ 75ccdc7 SystemUI: Don't vibrate on touchscreen camera gesture
+ ▪ 06d1641 Automatic translation import
+ ▪ 3efb79b Automatic translation import
+ ▪ 4098d8f core: cm_symbols: Remove deprecated <private-symbols>
+ ▪ 9153de0 Add large battery percentage and also the switch for it. (#159)
+
+ ▪ project packages/apps/Messaging/
+ ▪ 7ffe556 Merge branch 'cm-14.1' of https://github.com/cyanogenmod/android_packages_apps_Messaging into HEAD
+
+ ▪ project packages/apps/Settings/
+ ▪ 6d9c752 Add otus maintainer (#634)
+ ▪ 8a9c8bc Update Build ID
+ ▪ a1beaf8 Always show band 0 (Automatic)
+ ▪ 593d0fc Settings: Fix removal of notification pulse LED preference
+ ▪ bff034f Automatic translation import
+ ▪ 774f1c4 Settings: Set summary for zen priority notif preference
+ ▪ 2934a5f Automatic translation import
+ ▪ ae6df95 Automatic translation import
+ ▪ 9a07d12 Settings: Remove our storage changes
+ ▪ 366ed4c Battery percentage large text switch [2/2] (#632)
+ ▪ f388c6e OPPO R7Plus Maintainer (#633)
+
+ ▪ project packages/apps/Snap/
+ ▪ ab3398b Manual translation import
+ ▪ 7b90146 Automatic translation import
+
+ ▪ project packages/services/Telephony/
+ ▪ b9a9ae9 Telephony: add external network selection activity
+ ▪ a185f27 PhoneToggler: persist nw mode change
+ ▪ 404615e Port network mode toggle from CM12
+ ▪ d285a8f Automatic translation import
+
+ ▪ project vendor/cm/
+ ▪ 159460d vendor: changelog allow export of days_to_log
+ ▪ 09189d5 Add Reliance Jio India IMS volte apn's
+ ▪ 558a43b Fix Reliance Jio India APNs.
+ ▪ bbe9df4 cm: bring back storage manager
+ ▪ bb09b62 Add permissions & sepolicy for HBM
+ ▪ 52660e7 repopick: Avoid failing on commits lookup
+ ▪ cf1fcc2 cm: build: envsetup: Add mmmap command
+
+ ▪ project vendor/cmsdk/
+ ▪ 3fdfa0f Automatic translation import
+
+ ▼ 12/13/2016
+
+
+ ▪ project android/
+ ▪ 7ca4fa6 cm: android-7.1.1_r4 -> android-7.1.1_r6
+
+ ▪ project build/
+ ▪ 4a0aeb8 Merge tag 'android-7.1.1_r6' into cm-14.1
+
+ ▪ project device/lge/g3-common/
+ ▪ 904f969 Set permission for /dev/pn544
+
+ ▪ project frameworks/opt/telephony/
+ ▪ 225d8cf telephony: Respect user nw mode, handle DSDS non-multi-rat.
+
+ ▪ project packages/apps/Bluetooth/
+ ▪ 7d2f2d1 jni: fix merge failure
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+ ▪ 8d4dfa1 Fixes and cleanups after 7.1.0/7.1.1 merge
+
+ ▪ project packages/apps/PhoneCommon/
+ ▪ 9a66046 Automatic translation import
+
+ ▪ project packages/apps/SetupWizard/
+ ▪ e89bc04 SetupWizard: always prompt the user to setup a lockscreen
+
+ ▪ project packages/providers/DownloadProvider/
+ ▪ 26850ac Automatic translation import
+
+ ▪ project packages/services/CMAudioService/
+ ▪ b26686e Automatic translation import
+
+ ▪ project vendor/cmsdk/
+ ▪ 5be83e5 Revert "cmsdk: Add device-specific strings"
+
+ ▪ project vendor/lge/
+ ▪ a78f691 g4: update libdrmdecrypt from bullhead
+ ▪ 4300094 g4: update drm blobs from bullhead nmf26f
+
+ ▼ 12/12/2016
+
+
+ ▪ project device/lge/g3-common/
+ ▪ 496057e g3: disable the qc location stack
+ ▪ 4bb462c g3: move izat.conf to the device tree
+
+ ▪ project device/motorola/msm8226-common/
+ ▪ cb272dd msm8226-common: Remove hbm permissions
+
+ ▪ project external/vim/
+ ▪ fe38b49 patch 8.0.0133 Problem:    "2;'(" causes ml_get errors in an empty buffer.  (Dominique Pelle) Solution:   Check the cursor line earlier.
+ ▪ 4c8980b patch 8.0.0132 Problem:    Test fails because of using :finish. Solution:   Change to return.
+ ▪ 73b484c patch 8.0.0131 Problem:    Not enough test coverage for syntax commands. Solution:   Add more tests. (Dominique Pelle)
+
+ ▪ project frameworks/base/
+ ▪ 3d41917 DUI: fix SmartBar edit mode Google have set the nav always slippery on 7.1.1 but when switching from fling to smartbar and starting the edit mode we need to take the touch on the navbar buttons
+ ▪ 8b0e9cb Tuner:Add back clock preference
+ ▪ 4be864d services: Doze only if GMS is installed
+ ▪ a4124a1 Automatic translation import
+ ▪ 4c066f9 Automatic translation import
+ ▪ e9b0972 base: add BootReceiver back need by cpu overlay start at boot
+
+ ▪ project frameworks/native/
+ ▪ c2c3240 surfaceflinger: hwc1: Add missing mActiveFrameSequence counter
+ ▪ 3a14886 surfaceflinger: Orient blur layer based on panel mount flip
+
+ ▪ project hardware/ti/wlan/
+ ▪ f2267c4 wl12xx: Common WLAN KM build target for reuse by devices
+
+ ▪ project kernel/motorola/msm8226/
+ ▪ 3d041de ASoC: msm: lock read/write when add/free audio ion memory
+ ▪ 695f576 ASoC: msm: qdsp6v2: Change audio drivers to use %pK
+ ▪ 16af3e2 msm: camera: Avoid exposing kernel addresses
+ ▪ d3d19a5 msm: mdss: hide kernel addresses from unprevileged users
+ ▪ 889c47e msm: sensor: validate the i2c table index before use
+ ▪ 2158501 perf: protect group_leader from races that cause ctx double-free
+ ▪ dadd7b5 UPSTREAM: staging/android/ion : fix a race condition in the ion driver
+ ▪ 37e9e5c drivers: video: Add bounds checking in fb_cmap_to_user
+ ▪ 70e3b1b net: ping: Fix stack buffer overflow in ping_common_sendmsg()
+ ▪ 7bb686e usb: gadget: f_mbim: Change %p to %pK in debug messages
+ ▪ 4611ab9 netfilter: Change %p to %pK in debug messages
+
+ ▪ project packages/apps/ContactsCommon/
+ ▪ 0d10624 Enable support for groups in External contacts accounts
+
+ ▪ project packages/apps/Settings/
+ ▪ 9c5ce8d Remove hide Clock array
+ ▪ 353da0a Added maintainer for Samsung Note int n7000 (#630)
+
+ ▪ project packages/apps/Snap/
+ ▪ 6d717ac Remove log spam
+
+ ▪ project packages/services/Telephony/
+ ▪ 7a7fb2e Automatic translation import
+ ▪ b99709c CallFeatureSettings: Only show video quality if QTI package installed
+ ▪ d064e71 Automatic translation import
+ ▪ 01ad6d7 Automatic translation import
+
+ ▪ project vendor/cmsdk/
+ ▪ 18fbc31 Automatic translation import
+
+ ▪ project vendor/lge/
+ ▪ 4c98487 Merge pull request #243 from finnq/cm-14.1_g3_izat
+ ▪ 23d781a g3: move izat.conf to our device tree
+
+ ▪ project vendor/qcom/binaries/
+ ▪ 6725f8b msm8996: audio: Updated sound trigger HAL
+ ▪ 738a8d0 msm8996: graphics: Update graphics blobs
+
