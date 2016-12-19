@@ -3,7 +3,7 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
 	<Stable>
 		<peregrine>
-			<Filename>ResurrectionRemix-N-v5.8.0-20161211-peregrine</Filename>
+			<Filename>ResurrectionRemix-N-v5.8.0-20161218-peregrine</Filename>
 			<RomUrl
 				id="rom"
 				title="Resurrection Remix (Peregrine)"
