@@ -3,15 +3,15 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
 	<Stable>
 		<peregrine>
-			<Filename>ResurrectionRemix-N-v5.8.0-20170107-peregrine-Official</Filename>
+			<Filename>ResurrectionRemix-N-v5.8.0-20170111-peregrine-Official</Filename>
 			<RomUrl
 				id="rom"
 				title="Resurrection Remix (Peregrine) [Official]"
-				description="Download Resurrection Remix build!">http://downloads.resurrectionremix.com/peregrine/RR-N-v5.8.0-20170108-peregrine-Official.zip</RomUrl>
+				description="Download Resurrection Remix build!">http://downloads.resurrectionremix.com/peregrine/RR-N-v5.8.0-20170111-peregrine-Official.zip</RomUrl>
 			<ChangelogUrl
 				id="changelog"
-				title="Changelog"
-				description="View Changelog!">https://raw.githubusercontent.com/ResurrectionRemix/android_vendor_resurrection/nougat/CHANGELOG.mkdn</ChangelogUrl>
+				title="Changelog (January 11th, 2017)"
+				description="View Changelog!">https://raw.githubusercontent.com/frazerecho/RR_OTA/master/CHANGELOG.mkdn</ChangelogUrl>
 			<OpenGappsUrl
 				id="open_gapps"
 				title="Google Apps (OpenGApps)"
