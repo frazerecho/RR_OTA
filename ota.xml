@@ -17,5 +17,20 @@
 				title="Google Apps (OpenGApps)"
 				description="Download Google Apps!">http://opengapps.org</OpenGappsUrl>
 		</peregrine>
+		<d850>
+			<Filename>RR-N-v5.8.2-20170405-d850-Official</Filename>
+			<RomUrl
+				id="rom"
+				title="Resurrection Remix (AT&T LG G3) [Official]"
+				description="Download Resurrection Remix builds!">rr.oadam11.com</RomUrl>
+			<ChangelogUrl
+				id="changelog"
+				title="Changelog (April 5th, 2017)"
+				description="View Changelog!">rr.oadam11.com</ChangelogUrl>
+			<OpenGappsUrl
+				id="open_gapps"
+				title="Google Apps (OpenGApps)"
+				description="Download Google Apps!">http://opengapps.org</OpenGappsUrl>
+		</d850>
 	</Stable>
 </SlimOTA>
