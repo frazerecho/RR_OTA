@@ -32,5 +32,20 @@
 				title="Google Apps (OpenGApps)"
 				description="Download Google Apps!">http://opengapps.org</OpenGappsUrl>
 		</d850>
+		<falcon>
+			<Filename>RR-N-v5.8.2-20170405-d850-Official</Filename>
+			<RomUrl
+				id="rom"
+				title="Resurrection Remix (Falcon) [Official]"
+				description="Download Resurrection Remix builds!"></RomUrl>
+			<ChangelogUrl
+				id="changelog"
+				title="Changelog (April 5th, 2017)"
+				description="View Changelog!"></ChangelogUrl>
+			<OpenGappsUrl
+				id="open_gapps"
+				title="Google Apps (OpenGApps)"
+				description="Download Google Apps!">http://opengapps.org</OpenGappsUrl>
+		</falcon>
 	</Stable>
 </SlimOTA>
