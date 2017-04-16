@@ -21,7 +21,7 @@
 			<Filename>RR-N-v5.8.2-20170405-d850-Official</Filename>
 			<RomUrl
 				id="rom"
-				title="Resurrection Remix (AT&T LG G3) [Official]"
+				title="Resurrection Remix (ATT LG G3) [Official]"
 				description="Download Resurrection Remix builds!">rr.oadam11.com</RomUrl>
 			<ChangelogUrl
 				id="changelog"
@@ -37,7 +37,7 @@
 			<RomUrl
 				id="rom"
 				title="Resurrection Remix (Falcon) [Official]"
-				description="Download Resurrection Remix builds!"></RomUrl>
+				description="Download Resurrection Remix builds!">https://sourceforge.net/projects/resurrectionremix/files/falcon/RR-N-v5.8.3-20170416-falcon-WEEKLY.zip/download</RomUrl>
 			<ChangelogUrl
 				id="changelog"
 				title="Changelog (April 14th, 2017)"
