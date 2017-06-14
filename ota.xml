@@ -10,7 +10,7 @@
 				description="Download Resurrection Remix builds!">https://sourceforge.net/projects/resurrectionremix/files/peregrine/RR-N-v5.8.3-20170512-peregrine-Official.zip/download</RomUrl>
 			<ChangelogUrl
 				id="changelog"
-				title="Changelog (April 14th, 2017)"
+				title="Changelog (June 14th, 2017)"
 				description="View Changelog!">https://raw.githubusercontent.com/frazerecho/RR_OTA/master/CHANGELOG.mkdn</ChangelogUrl>
 			<OpenGappsUrl
 				id="open_gapps"
@@ -33,14 +33,14 @@
 				description="Download Google Apps!">http://opengapps.org</OpenGappsUrl>
 		</d850>
 		<falcon>
-			<Filename>RR-N-v5.8.3-20170506-falcon-Official</Filename>
+			<Filename>RR-N-v5.8.3-20170614-falcon-Official</Filename>
 			<RomUrl
 				id="rom"
 				title="Resurrection Remix (Falcon) [Official]"
-				description="Download Resurrection Remix builds!">https://sourceforge.net/projects/resurrectionremix/files/falcon/RR-N-v5.8.3-20170507-falcon-Official.zip/download</RomUrl>
+				description="Download Resurrection Remix builds!">https://sourceforge.net/projects/resurrectionremix/files/falcon/RR-N-v5.8.3-20170614-falcon-Official-.zip/download</RomUrl>
 			<ChangelogUrl
 				id="changelog"
-				title="Changelog (April 14th, 2017)"
+				title="Changelog (June 14th, 2017)"
 				description="View Changelog!">https://raw.githubusercontent.com/frazerecho/RR_OTA/master/CHANGELOG.mkdn</ChangelogUrl>
 			<OpenGappsUrl
 				id="open_gapps"
