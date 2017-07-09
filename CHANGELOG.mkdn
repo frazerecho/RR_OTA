@@ -1,540 +1,443 @@
-
  ▼ Resurrection Remix Nougat Ver 5.8.3 Changelog
 
 
- ▼ 06/14/2017
+ ▼ 07/07/2017
 
+
+ ▪ project device/motorola/msm8226-common/
+ ▪ d13dd00 msm8226-common: Grant rmt_storage proper unix perms
 
  ▪ project frameworks/base/
+ ▪ 7359783 SmartBar: make button longpress delay configurable [2/3]
+ ▪ 0f18cce fingerprint: Speed up wake-and-unlock scenario
+ ▪ 10484a5 [1/2] Add support for pulsing battery icon when charging
 
  ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/Eleven/
- ▪ 6665277 Eleven: Remove unused permission REAL_GET_TASKS
-
- ▪ project packages/apps/PackageInstaller/
+ ▪ 0e7263f SmartBar: make button longpress delay configurable [1/3]
 
  ▪ project packages/apps/Settings/
- ▪ b65b342 Add Samsung Galaxy Alpha as Official (#806)
+ ▪ 1f19428 SmartBar: make button longpress delay configurable [3/3]
+ ▪ a9a780d Edit a string
+ ▪ a9bba60 [2/2] Add support for pulsing battery icon regardless of style
 
- ▪ project packages/apps/Snap/
- ▪ bd1d6ea Snap: Sign with platform key
-
- ▼ 06/13/2017
-
-
- ▪ project frameworks/base/
- ▪ 00e4452 Fix IME switcher not being shown in notifications when enabled
- ▪ 01df159 SignalClusterView:Tighten up loose ends for no sim subscriptions
- ▪ 6cdb4e7 Revert "Fix nav bar showing always on the left when rotated to 270 degrees."
- ▪ d49173c FWB:Smartbar touch sounds:make it optional[1/3]
- ▪ 2f037a2 BatteryMeterDrawable:Sync with upstream
- ▪ 17409ca SystemUI:Disable carrier label by default - Increase font size
- ▪ 07ab6ef RRUtils:Add missing Omniswitch contants
- ▪ b7b6261 CaptivePortalLoginActivity correctly gets UserAgent
- ▪ 106869b Prettify the captive portal sign-in activity
- ▪ 60a5ede [1/2] base: OmniSwitch: add preload task broadcast
- ▪ 0f9e9d3 SystemUI: animate icon when locking a task
-
- ▪ project kernel/lge/g3/
- ▪ 59ed959 sdcardfs: limit stacking depth
-
- ▪ project packages/apps/DUI/
- ▪ 58a000e DUI:Uncomment Navbar Left in Landscape [1/2]
- ▪ 2562dc1 Fix spammed hindi strings
- ▪ 0e3dedc Update strings.xml
- ▪ 9175a54 Fix bad strings
- ▪ 8ab23f1 Smartbar touch sounds:make it optional [2/3]
- ▪ 885fa36 Pulse: Navbar left in landscape support
- ▪ e9daee7 SmartBar: Touch sound support
- ▪ 6607429 DUI: Fix NPE in MediaMonitor
-
- ▪ project packages/apps/OmniSwitch/
- ▪ 6e90ddf [2/2] OmniSwitch: add preload task broadcast
-
- ▪ project packages/apps/PackageInstaller/
-
- ▪ project packages/apps/ResurrectionStats/
-
- ▪ project packages/apps/Settings/
- ▪ 6e0d35e Settings:Add back Left navigation bar in landscape [2/2]
- ▪ 05fe606 Settings:Smartbar touch sounds:make it optional [3/3]
- ▪ 8666f80 Configurations:Disable carrier label by default
-
- ▪ project packages/apps/Snap/
- ▪ d7247ff Add orientation correction for landscape devices
-
- ▪ project packages/services/OmniJaws/
-
- ▼ 06/12/2017
-
-
- ▪ project frameworks/base/
-
- ▪ project kernel/motorola/msm8226/
- ▪ 6d7c49e prima: Use heap memory for station_info instead of stack
- ▪ 8795ace ping: implement proper locking
- ▪ 9d16270 ext4: fix fencepost in s_first_meta_bg validation
- ▪ dc00714 ext4: fix condition of validate s_first_meta_bg
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/Dialer/
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/PackageInstaller/
-
- ▪ project packages/apps/ResurrectionStats/
-
- ▪ project packages/apps/Settings/
- ▪ c50618e Add Moto G5 Plus as Official (#805)
-
- ▪ project packages/services/OmniJaws/
-
- ▼ 06/11/2017
-
-
- ▪ project frameworks/base/
- ▪ 62af0145 fingerprint: handle PerformanceStats NULL pointers
- ▪ aabff84 Slim Recents: allow to disable round corners for cards [1/2]
- ▪ 457b8d6 New app-pinning icon
- ▪ bbb3ae8 Remove FastJNI optimization on AssetManager to avoid dead lock.
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/Settings/
- ▪ fb18ec2 Slim Recents: allow to disable round corners for cards [2/2]
-
- ▼ 06/10/2017
-
-
- ▪ project build/
- ▪ b1f8acf core: minimize dumpvar
-
- ▪ project packages/apps/Settings/
-
- ▼ 06/09/2017
-
-
- ▪ project frameworks/base/
- ▪ 2f89ae2 Optimised hwui rounded corners shader
- ▪ b021af9 SystemUI: Reroute Battery QS Tile tint back to original color
- ▪ 4b50c93 Fix a use-of-uninitialized-value warning.
- ▪ 84fba94 Fix a use-of-uninitialized-value warning
- ▪ 10a9f4e Reduce hwui CPU time by using glDrawRangeElements
- ▪ 1590b9a Close recents panel after drag-cards-for-multiwindow action
- ▪ 848f8bc Slim recents: use multiwindow button to drag cards
- ▪ 4253922 Update memory state on emtpyView click
- ▪ 5332827 Optional No sim icon switch [1/2]
- ▪ 2b65ab8 QS: Remove listeners only if added
-
- ▪ project packages/apps/Email/
- ▪ ea4eb75 Adjust Email UnitTests to e353ae2ea19c9ea800d10b37e05de7b0ea1aeeb4
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/PackageInstaller/
-
- ▪ project packages/apps/Settings/
- ▪ 16cdbad Optional no sim icon switch [2/2]
- ▪ 3681ae5 Fix FC in Configurations - About - Device and Maintainers (#803)
-
- ▪ project vendor/motorola/
- ▪ 0af25d2 athene: rename HAL for camera wrapper
-
- ▼ 06/08/2017
-
-
- ▪ project external/chromium-webview/
- ▪ 2909904 Update webviews
-
- ▪ project frameworks/base/
-
- ▪ project hardware/ti/omap4/
- ▪ 1738329 omap4: Correct disabling of dirty regions invalidation
-
- ▪ project kernel/motorola/msm8226/
- ▪ 3f8c79c sctp: do not inherit ipv6_{mc|ac|fl}_list from parent
- ▪ d6bb4ef ipv6: Check ip6_find_1stfragopt() return value properly.
- ▪ 8f01ac1 ipv6: Prevent overrun when parsing v6 header options
- ▪ f75065c msm: mdss: Fix invalid dma attachment during fb shutdown
- ▪ d4aa677 input: synaptics_dsx: valid bounds of intr_reg_num
- ▪ 9188dae unix: correctly track in-flight fds in sending process user_struct
- ▪ 52ae8b2 unix: properly account for FDs passed over unix sockets
- ▪ 09be64a msm: mdss: Add sanity check for Gamut LUT size
- ▪ a3a72b1 qseecom: add mutex around qseecom_set_client_mem_param
- ▪ 6b09b17 msm: IPA: add the check on intf query
- ▪ 2fed1a0 USB: cypress_m8: add endpoint sanity check
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/Gallery2/
- ▪ 93bcb4c Gallery2: support GIF animation
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/PackageInstaller/
-
- ▪ project packages/apps/Settings/
- ▪ 87cabde Reduce Volume panel dialog min timout to 350ms
-
- ▪ project packages/apps/Snap/
- ▪ 78666b5 Snap: Simulate back button press when menu back button is pressed
-
- ▪ project packages/apps/Terminal/
- ▪ 5856a60 Terminal: Fix keyboard Ctrl- and ALT-key input.
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider/
- ▪ 3fe4133 Add back key to actionbar
- ▪ b9b9cce Add openweathermap copyright
- ▪ d0d73c5 Add icon
- ▪ dccb527 Refactor cyanogenmod -> lineageos
- ▪ 9d01897 Update gradle
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
- ▪ 3e9b1c1 Don't fail when a translation is missing
- ▪ 3a8340c Update icon
- ▪ a195bb4 Refactor cyanogenmod -> lineageos
- ▪ a1ff743 Update gradle
-
- ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
- ▪ bf4c5a3 Don't fail when a translation is missing
- ▪ 6110585 Update app name to match other providers
- ▪ a0d2c7c Update icon
- ▪ fd3221f Refactor cyanogemod -> lineageos
- ▪ 5cb7ddf Update gradle
-
- ▼ 06/07/2017
+ ▼ 07/06/2017
 
 
  ▪ project android/
- ▪ a46ed2f Revert "Track own system_media"
- ▪ d73bf77 Track own system_media
- ▪ 949aff4 manifest: android-7.1.2_r8 -> android-7.1.2_r17
+ ▪ 095f157 manifest: android-7.1.2_r17 -> android-7.1.2_r24
 
  ▪ project build/
- ▪ cc30c3a Merge tag 'android-7.1.2_r17' into nougat
+ ▪ 01f92d6 Merge tag 'android-7.1.2_r24' into nougat
+
+ ▪ project external/boringssl/
+ ▪ c9d9e0b Merge tag 'android-7.1.2_r24' into cm-14.1
+
+ ▪ project external/skia/
+ ▪ d41b284 Merge tag 'android-7.1.2_r24' into nougat
+
+ ▪ project frameworks/av/
+ ▪ 4d87ec3 Merge tag 'android-7.1.2_r24' into nougat
 
  ▪ project frameworks/base/
- ▪ b8bb91f Merge tag 'android-7.1.2_r17' into nougat
+ ▪ 7cc34a0 Merge tag 'android-7.1.2_r24' into nougat
 
  ▪ project frameworks/native/
- ▪ dae45e0 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_native into nougat
-
- ▪ project packages/apps/Bluetooth/
- ▪ 9d274ac BluetoothOppTransferActivity: fix after ad46f6a52d7240ed1e2127c4263a5cbcf454df09
- ▪ 9efb588 Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/Messaging/
- ▪ ef18c3d Merge branch 'cm-14.1' of https://github.com/LineageOS/android_packages_apps_messaging into nougat
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/PackageInstaller/
-
- ▪ project packages/apps/Settings/
- ▪ a5dfd15 Update Build ID
-
- ▪ project packages/apps/TvSettings/
- ▪ 3ddceec Settings: Implement ADB over network
- ▪ bf8bc80 Settings: Add intent to launch LineageOS platlogo upon multiple taps
- ▪ 0165eb8 settings: Add advanced reboot switch
- ▪ e1c67c5 Settings: Set root access options appropriately
- ▪ 253b262 settings: Add developer setting for root access
- ▪ f4e82a3 Use more descriptive strings for add accessory page
- ▪ 3733c2b About: Add LineageOS Updates
- ▪ 0fe2e3b Add build date (ro.build.date from build.prop) to About screen.
- ▪ 18c18a9 One does not simply become a Developer
- ▪ 34001b8 Add LineageOS version to the About screen
-
- ▪ project system/core/
- ▪ 5504d46 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
-
- ▪ project vendor/cm/
- ▪ 0454ffd Vendor: Build AudioFX again
-
- ▪ project vendor/lge/
- ▪ 6044693 bullhead: update blobs from N2G47W factory image
-
- ▪ project vendor/motorola/
- ▪ 29a6b26 shamu: update blobs from N6F27E factory image
-
- ▼ 06/06/2017
-
-
- ▪ project android/
- ▪ bcb3fb7 crowdin: add PackageInstaller
-
- ▪ project external/stagefright-plugins/
- ▪ 05bf4e7 ffmpeg-extractor: StageFright supports Opus files
- ▪ 11bc5a2 Revert "FFmpegExtractor: Don't use our extractor when we agree with StageFright"
-
- ▪ project frameworks/base/
- ▪ 0a001c5 Fix SystemUI FC due to Google Assistant
- ▪ 16a622d Handle Illegal Argument Exception
- ▪ 50b3778 Reduce MTU Size
- ▪ fc52d47 FW_BASE: Rewrite restart SystemUI method
- ▪ 42fa816 Add support for page theme color to WebView and WebChromeClient.
-
- ▪ project frameworks/native/
- ▪ 1eed077 Merge tag 'android-7.1.2_r17' into cm-14.1
+ ▪ cfac6d5 Merge tag 'android-7.1.2_r24' into nougat
 
  ▪ project libcore/
- ▪ b162f5e Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/Dialer/
-
- ▪ project packages/apps/Gallery2/
- ▪ 95cb32b Increase the size of the tiles when decoding images
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/PackageInstaller/
-
- ▪ project packages/apps/ResurrectionOTA/
-
- ▪ project packages/apps/ResurrectionStats/
+ ▪ 30ff118 Merge tag 'android-7.1.2_r24' into cm-14.1
 
  ▪ project packages/apps/Settings/
- ▪ 5910d21 Settings:Rewrite Restart SystemUI
+ ▪ 15be728 DeviceInfoSettings: don't hardcode tag/build id
+ ▪ 658c831 Merge tag 'android-7.1.2_r24' into nougat
+ ▪ 77bc9ec Change Oneplus2 maintainer (#816)
 
- ▪ project packages/services/OmniJaws/
+ ▪ project packages/providers/DownloadProvider/
+ ▪ d20a3a2 Merge tag 'android-7.1.2_r24' into cm-14.1
 
- ▪ project system/bt/
- ▪ aa31852 Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project system/core/
- ▪ 5e54c5f libcutils: fix schedboost after 31f78ddf4ea2ab7963d873cb16db98e976346468
- ▪ 14bdeb8 Merge tag 'android-7.1.2_r17' into cm-14.1
-
- ▪ project vendor/cm/
- ▪ 69d6029 fix check_blacklist function to work on wiped /system partition
- ▪ d0be161 sensitive_pn: Add sensitive numbers for Serbia
-
- ▼ 06/05/2017
-
-
- ▪ project hardware/qcom/display-caf/msm8996/
- ▪ 92fa2ea Merge tag 'LA.UM.5.5.r1-04700-8x96.0' into HEAD
-
- ▪ project packages/apps/AudioFX/
- ▪ 6850778 AudioFX: Sign with platform key
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/Dialer/
-
- ▪ project packages/apps/FlipFlap/
- ▪ 99c45c1 FlipFlap: Circle/Rectangle View: Force layout to the follow BatteryViews
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/ResurrectionOTA/
-
- ▪ project packages/apps/Settings/
- ▪ 4031811 Correction (#802)
- ▪ 3cc6e83 Add Galaxy S4 Mini as Official (#799)
-
- ▪ project vendor/lge/
- ▪ a323fd0 msm8996: Add board specific HotwordEnrollment
-
- ▼ 06/04/2017
-
-
- ▪ project frameworks/base/
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/Settings/
-
- ▼ 06/03/2017
-
-
- ▪ project frameworks/base/
- ▪ 8ff5e2e Recents:improve task locking code & mechanism
- ▪ d0bf589 fw: Don't consume home key press when KEY_ACTION_SLEEP is used
- ▪ cc8e5e6 SystemUI: Specify user while changing brightness mode
-
- ▪ project hardware/qcom/audio-caf/msm8916/
- ▪ ef3989b Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
- ▪ 40d378a Revert "audio HAL: fix thread starvation"
-
- ▪ project hardware/qcom/media-caf/msm8916/
- ▪ d781d8f Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.18' into cm-14.1-caf-8916
-
- ▪ project packages/apps/Dialer/
- ▪ ae7d2f6 Dialer: update fab color to match aosp primary color
-
- ▪ project packages/apps/OmniSwitch/
-
- ▪ project packages/apps/Settings/
- ▪ 4012daa Mi Note 2 Maintainer Update (#797)
-
- ▪ project packages/services/Telecomm/
- ▪ 4ded59b (1/2) Make sensitive phone numbers not to be shown in call log history.
-
- ▪ project packages/services/Telephony/
- ▪ 8171340 Fix minor inconsistency in the CDMA call settings
- ▪ 6c91d6c telephony: Fix and move CAF strings
+ ▪ project packages/providers/MediaProvider/
+ ▪ 03abed5 Merge tag 'android-7.1.2_r24' into cm-14.1
 
  ▪ project system/sepolicy/
- ▪ 759e540 Add policy to fix interfacer derp on boot
- ▪ 31468f5 Allow recovery to alter / on userdebug/eng builds
+ ▪ ca57649 Add policy to fix interfacer derp on boot
+ ▪ f0546f1 sepolicy: Allow system_server to set theme_prop
+ ▪ 188e2fb sepolicy: add file and domain trans to interfacer
+ ▪ bb79e15 Rename Masquerade to ThemeInterfacer [2/2]
+ ▪ e9e8cf5 sepolicy: Redo masquerade rules
+ ▪ 3ce5f05  sepolicy: Attempt to fix bootanim
+ ▪ 61f8622 sepolicy: allow masquerade to read and write theme assets
+ ▪ e394d92 sepolicy: rename masquerade domain and allow JobService in system_server
+ ▪ 36c882b initial policy edits for masquerade to operate rootless
+ ▪ 4eb146b Revert "Revert "sepolicy: fix themed sounds""
+ ▪ d7a63a4 Revert "Revert "sepolicy: fix themed boot animation""
+ ▪ ba0e461 Revert "Revert "Introduce sepolicy exceptions for theme assets""
+ ▪ 8384671 Revert "Revert "Allow apps in /system/priv-app to call and execute su commands""
+ ▪ 48fd011 Revert "Allow apps in /system/priv-app to call and execute su commands"
+ ▪ 3d9b49b Revert "Introduce sepolicy exceptions for theme assets"
+ ▪ c156db4 Revert "sepolicy: fix themed boot animation"
+ ▪ fdad3fd Revert "sepolicy: fix themed sounds"
+ ▪ b6bc55f sepolicy: fix themed sounds
+ ▪ 2b33b12 sepolicy: fix themed boot animation
+ ▪ bb40596 Introduce sepolicy exceptions for theme assets
+ ▪ 06635a9 Allow apps in /system/priv-app to call and execute su commands
+ ▪ 36164c6 Add policy to SELinux to allow ViPER4Android in enforcing mode
+ ▪ 3b528f0 OMS7-N: Add service 'overlay' to service_contexts
+ ▪ 5663ce2 RR: 7.1 fix
+ ▪ 53bc460 sepolicy: Allow platform_app to run su_exec() (1/2)
+ ▪ c7c2125 sepolicy: Allow system_server to run su_exec() (1/2)
+ ▪ 2f058da sepolicy: Allow system_app to run su_exec()
+ ▪ cf4570d sepolicy: Allow remount /system
+ ▪ e6105f1 Merge tag 'android-7.1.2_r24' into cm-14.1
 
  ▪ project vendor/cm/
- ▪ 3b631c0 sensitive_pn: Add sensitive phone numbers for India
- ▪ 6d364bf sensitive_pn: Add more numbers for Germany
- ▪ bf099c9 sensitive_pn: Add sensitive phone numbers for Norway
- ▪ 9f417a1 sensitive_pn: Add additional US numbers
- ▪ 2f24950 sensitive_pn: add sensitive number for Indonesia
- ▪ e0f17b9 sensitive_pn: Add sensitive phone number for Romania
- ▪ cd6c6be sensitive_pn: Added sensitive number for the Netherlands
- ▪ 3575664 sensitive_pn: add sensitive numbers for Turkey
- ▪ 229f62f sensitive_pn: Add sensitive phone number for Bangladesh
- ▪ 5630a4a sensitive_pn: Add US number
- ▪ 269c86c Add sensitive phone numbers for Brazil
- ▪ 3fbdf51 sensitive_pn: reorder by MCC code
- ▪ 56658d2 sensitive_pn: Add Australian sensitive phone number.
- ▪ 34d9d56 sensitive_pn: Add New Zealand sensitive numbers.
- ▪ 7ce9ff5 (2/2) Make sensitive phone numbers not to be shown in call log history.
- ▪ a3f80fd overlay: Enable Wi-Fi by default on first boot
- ▪ b52ed87 Show full alarm info
+ ▪ 44d782b vendor: add a prop to get the AOSP tag from manifest
 
- ▪ project vendor/cmsdk/
- ▪ 5c781da Double tap to sleep anywhere on lock screen [3/3]
- ▪ 4fb9332 cmsdk: Disable Lockscreen Media Art [3/3]
- ▪ 2f25936 cmsdk: fix twilight state not updating in live display auto mode
+ ▪ project vendor/lge/
+ ▪ f2979e9 bullhead: update blobs from N2G47Z factory image
 
- ▼ 06/02/2017
+ ▪ project vendor/motorola/
+ ▪ a6a84d3 shamu: update blobs from N6F27H factory image
+
+ ▼ 07/05/2017
 
 
- ▪ project frameworks/base/
- ▪ 9916373 Fix nav bar showing always on the left when rotated to 270 degrees. Also, fix the order of the buttons so the back button always shows on the bottom
+ ▪ project packages/apps/Jelly/
+ ▪ fa0b42a Jelly: Don't save form data in incognito mode
+
+ ▪ project system/core/
+ ▪ 01a7186 Merge branch 'cm-14.1' of https://github.com/LineageOS/android_system_core into nougat
+
+ ▪ project vendor/cm/
+ ▪ 3739625 Add LTE support for China Telecom Macau.
+ ▪ 3f2013a qcom_utils: Cleanup supported QCOM_BOARD_PLATFORMS
+ ▪ 3177211 build: qcom_target: Define MASTER_SIDE_CP_TARGET_LIST
+
+ ▼ 07/04/2017
+
 
  ▪ project hardware/qcom/fm/
 
- ▪ project kernel/motorola/msm8226/
- ▪ 4fa3de8 ipv6: fix out of bound writes in __ip6_append_data()
- ▪ 9d3a61f ipv6/dccp: do not inherit ipv6_mc_list from parent
-
- ▪ project packages/apps/AudioFX/
-
- ▪ project packages/apps/Bluetooth/
-
- ▪ project packages/apps/Calendar/
-
- ▪ project packages/apps/Camera2/
-
- ▪ project packages/apps/CellBroadcastReceiver/
-
- ▪ project packages/apps/DUI/
-
- ▪ project packages/apps/EmergencyInfo/
-
- ▪ project packages/apps/FMRadio/
-
  ▪ project packages/apps/Gallery2/
 
- ▪ project packages/apps/ManagedProvisioning/
+ ▪ project packages/apps/Jelly/
 
- ▪ project packages/apps/Messaging/
+ ▪ project packages/apps/Profiles/
 
- ▪ project packages/apps/OmniSwitch/
+ ▪ project packages/apps/Terminal/
 
- ▪ project packages/apps/Recorder/
-
- ▪ project packages/apps/Settings/
- ▪ 3b35f19 Settings: enable fast scroll for all app list views
-
- ▪ project packages/apps/SetupWizard/
-
- ▪ project packages/apps/Snap/
-
- ▪ project packages/apps/Tag/
-
- ▪ project packages/apps/Trebuchet/
-
- ▪ project packages/apps/TvSettings/
-
- ▪ project packages/inputmethods/LatinIME/
+ ▪ project packages/providers/DataUsageProvider/
 
  ▪ project packages/providers/WeatherProvider/
 
  ▪ project packages/resources/devicesettings/
 
- ▪ project packages/services/LiveLockScreenService/
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
+
+ ▼ 07/03/2017
+
+
+ ▪ project hardware/qcom/audio-caf/msm8916/
+ ▪ 5578c76 Merge remote-tracking branch 'caf/LA.BR.1.2.9_rb1.22' into cm-14.1-caf-8916
+
+ ▪ project hardware/qcom/audio-caf/msm8994/
+ ▪ 9cddbb8 Merge remote-tracking branch 'caf/LA.BF64.1.2.3_rb1.14' into cm-14.1-caf-8994
+
+ ▪ project hardware/qcom/fm/
+ ▪ 7a29d93 FM: Fix helium hal build
+ ▪ 0df98d3 Change rename_dialog background color to default
+ ▪ f62c66a FMStats: fix GetFMStatsForFreq error for non-cherokee
+
+ ▪ project packages/apps/Gallery2/
+ ▪ c45b89b Gallery2: Fix crash after returning from albums in wallpaper picker
+
+ ▼ 07/02/2017
+
+
+ ▪ project frameworks/base/
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Jelly/
+ ▪ b8109ec Jelly: Update suggestions provider API URLs
+ ▪ a7659df Jelly: Make UrlResolvedReceiver final
+ ▪ b15286f Jelly: Move bing suggestions provider to https
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/PackageInstaller/
+
+ ▪ project packages/apps/Settings/
+
+ ▪ project packages/services/OmniJaws/
+
+ ▪ project vendor/motorola/
+ ▪ 43757cb addison: Add proprietary GPS stack
+ ▪ 9a5e9c8 addison: Update proprietary blobs (NPN26.107)
+
+ ▼ 07/01/2017
+
+
+ ▪ project hardware/qcom/fm/
+
+ ▪ project hardware/ti/omap4/
+ ▪ 030bec5 BUGBASH-733 Memory leak in system_server caused by suspend / color fade
+
+ ▪ project kernel/lge/g3/
+ ▪ b153d31 Revert "tmpfs: clear S_ISGID when setting posix ACLs"
+
+ ▪ project kernel/motorola/msm8226/
+ ▪ 1541f5e Revert "tmpfs: clear S_ISGID when setting posix ACLs"
+
+ ▪ project packages/apps/AudioFX/
+
+ ▪ project packages/apps/Camera2/
+
+ ▪ project packages/apps/CellBroadcastReceiver/
+
+ ▪ project packages/apps/Eleven/
+
+ ▪ project packages/apps/FlipFlap/
+
+ ▪ project packages/apps/Gallery2/
+
+ ▪ project packages/apps/Jelly/
+ ▪ f50b7e9 Jelly: Fix Suggestions Provider strings (suggestion / uggestion)
+ ▪ 697e32d Jelly: Remove unused parameter
+ ▪ 66d1b83 Jelly: Allow launching external apps
+ ▪ 9d693cc Jelly: Remove unneeded getApplicationContext call
+
+ ▪ project packages/apps/Recorder/
+
+ ▪ project packages/apps/SetupWizard/
+
+ ▪ project packages/apps/Snap/
+
+ ▪ project packages/apps/Terminal/
+
+ ▪ project packages/providers/DataUsageProvider/
+
+ ▪ project packages/providers/WeatherProvider/
+
+ ▪ project packages/resources/devicesettings/
+
+ ▪ project vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider/
 
  ▪ project vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider/
 
- ▪ project vendor/qcom/opensource/cryptfs_hw/
- ▪ da6e595 cryptfs_hw: Fix stack out of bound issue
+ ▼ 06/30/2017
 
- ▼ 06/01/2017
 
+ ▪ project frameworks/av/
+ ▪ 0e7e3ed Merge branch 'cm-14.1' of https://github.com/LineageOS/android_frameworks_av into nougat
+
+ ▪ project frameworks/base/
+ ▪ 9265366 Fix potential KeyguardMonitor FC on unlock
+ ▪ b2edd93 Revert "BluetoothTile: Fix in the off state while entering the detail view"
+
+ ▪ project packages/apps/DUI/
+ ▪ 08efc6c Fix button size not refreshing after a dpi change
+ ▪ f758ef8 Media arrows: hide them on keyguard bouncer
+
+ ▪ project packages/apps/Jelly/
+ ▪ d6b3b84 Jelly: Add non encrypted google search engine
+ ▪ 897fa20 Jelly: Propagate custom request headers to WebClient
+ ▪ 58c2aed Jelly: Add suggestions
+
+ ▪ project packages/apps/Settings/
+ ▪ 3e1184d Enable some more power menu actions
+
+ ▪ project packages/apps/WallpaperPicker/
+ ▪ 2b021c4 WallpaperPicker: Update for wallpaper API changes
+
+ ▼ 06/29/2017
+
+
+ ▪ project build/
+ ▪ a2f759c Disable recovery resource warning
+ ▪ 29849f1 Revert "Preventing default locale from being overridden because of buildinfo.sh"
+ ▪ 13505f0 Revert "build: skip 'ro.product.device' using  new macro "TARGET_SKIP_PRODUCT_DEVICE""
+ ▪ dbe4d61 Makefile: Add the missing dependency on FUTILITY.
+ ▪ 14e6c9f Build FUTILITY tool from futility-host.
+
+ ▪ project frameworks/base/
+ ▪ 2924709 ActivityStarter: Fix protected app intents
+ ▪ 7d5b280 SystemUI: Make play queue toggle more visible
+ ▪ c41bff4 Volume Panel: Fix Bluetooth music stream icon when muted
+ ▪ 0679fa4 Add support for the .opus file format
+
+ ▪ project packages/apps/Jelly/
+ ▪ 69173dd Jelly: Add show/hide keyboard utilities
+
+ ▪ project packages/apps/Settings/
+ ▪ dffe3ae Settings: Hide disabled lockscreen blur from search index
+ ▪ d033a65 Settings: handle decrypting larger pattern sizes for sw600dp
+ ▪ cc69056 Revert "Settings: Fix internal storage summary for non-emulated storage"
+ ▪ afac342 Settings: Fix automatic hotspot turn off summary
+ ▪ 962926d Settings: Make string untranslatable
+
+ ▪ project vendor/cm/
+ ▪ 94925ac apns-conf: Add Japan Umobile APNs
+ ▪ 65227e7 sensitive_pn: Add sensitive numbers for Greece
+ ▪ 980082e sensitive_pn: fix Czech Republic MCC
+ ▪ 93c4774 sensitive_pn: Add Taiwanese sensitive numbers
+ ▪ 0d0b4a0 Add sensitive numbers for Ukraine.
+ ▪ 25aa89e Add Virgin Media Ireland to APN's
+ ▪ 0d7863e sensitive_pn: Add additional FR number
+ ▪ ea6ec70 sensitive_pn: Add additional GB numbers
+ ▪ 5cdcee9 sensitive_pn: Add additional PT numbers
+ ▪ 5873f8b sensitive_pn: add missing phone number for Brazil
+ ▪ 1498b34 roomservice: Search for repos in lineage snippet too
+ ▪ e0f8cfc roomservice: Remove support for devices in main manifest
+ ▪ eb80e6f Add sensitive numbers for Israel.
+ ▪ a632682 sensitive_pn: Add sensitive phone numbers for Czech Republic
+ ▪ a0723e8 sensitive_pn: Add Canadian sensitive numbers
+ ▪ 3483b70 sensitive_pn: Add more numbers from the Netherlands
+
+ ▼ 06/28/2017
+
+
+ ▪ project device/motorola/falcon/
+ ▪ 48198ba falcon: Abandon TARGET_UNIFIED_DEVICE flag
+ ▪ 1ef75bb falcon: Allow vendor init to override props
+
+ ▪ project device/motorola/peregrine/
+ ▪ 7487001 peregrine: Abandon TARGET_UNIFIED_DEVICE flag
+ ▪ b729846 peregrine: Allow vendor init to override props
+
+ ▪ project external/stagefright-plugins/
+ ▪ 931ae6b FFmpegExtractor: Fix "supported" typo in logs
 
  ▪ project frameworks/base/
 
  ▪ project kernel/lge/g3/
- ▪ e90293a BACKPORT: fs: limit filesystem stacking depth
+ ▪ 1d887f1 tmpfs: clear S_ISGID when setting posix ACLs
+ ▪ 1d191fa ping: implement proper locking
+ ▪ 5a776d2 prima: Add buf len check in wlan_hdd_cfg80211_testmode
+ ▪ d32d6f6 prima: Avoid overflow of "significant change" params
+ ▪ 16365c9 prima: Avoid overflow of "set_bssid_hotlist" params
 
  ▪ project packages/apps/DUI/
 
- ▪ project packages/apps/OmniSwitch/
- ▪ fab5e78 OmniSwitch: cleanup BitmapUtils
- ▪ 0ad4cd0 OmniSwitch: fix crash on special app icon formats
- ▪ e6e21ad OmniSwitch: shadow wars
- ▪ 3de4c24 OmniSwitch: Launcher: refine assist activity check
- ▪ 4ec4e60 OmnSwitch: enable update thumbs during swipe
- ▪ 74acfe7 OmniSwitch: Launcher: check for existing assist activities
+ ▪ project packages/apps/Jelly/
+ ▪ 9a5fcdd Jelly: Search on Enter key
+ ▪ 74c7e51 Jelly: Don't reload on keyboard changes
 
- ▪ project packages/apps/ResurrectionStats/
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/Settings/
+ ▪ 7470d86 Add device Samsung Galaxy S4 VE GT-I9515 jfvelte (#813)
+
+ ▼ 06/27/2017
+
+
+ ▪ project frameworks/av/
+ ▪ eb9cc20 CameraService: Fix cameraId type of onDeviceStatusChanged
+
+ ▪ project kernel/lge/g3/
+ ▪ 707a904 perf: don't leave group_entry on sibling list (use-after-free)
+ ▪ 5295d15 fs/proc/array.c: make safe access to group_leader
+ ▪ ed93b1e ALSA: info: Check for integer overflow in snd_info_entry_write()
+
+ ▪ project packages/apps/Gallery2/
+ ▪ e988d6a Gallery2: Fix views overlap
+
+ ▼ 06/26/2017
+
+
+ ▪ project device/lge/g3-common/
+ ▪ 7e1b9ad g3-common: adapt to FlipFlap overlay changes
+
+ ▪ project kernel/lge/g3/
+ ▪ efce7b0 prima: Use heap memory for station_info instead of stack
+ ▪ 6a6692d msm: kgsl: fix sync file error handling
+ ▪ ae5dbf7 BACKPORT: posix_acl: Clear SGID bit when setting file permissions
+ ▪ 5aa6a67 cgroup: prefer %pK to %p
+ ▪ 20c45c1 qseecom: Change format specifier %p to %pK
+ ▪ 38a232a ASoC: msm: initialize the params array before using it
+ ▪ 2b9f702 msm: vidc: use %pK instead of %p which respects kptr_restrict sysctl
+ ▪ f546c2c ASoC: wcd9320: Fix out of bounds for mad input value
+ ▪ f4fba31 msm: camera: restructure data handling to be more robust
+ ▪ 83b94f1 msm: camera: sensor: Fix use after free condition
+ ▪ 00e4860 USB: cypress_m8: add endpoint sanity check
+ ▪ 7dee513 ALSA: seq: Fix race at timer setup and close
+ ▪ a9d563a slim-msm: Synchronize SSR callbacks
+ ▪ c5a1b24 crypto: msm: check length before copying to buf in _debug_stats_read
+ ▪ 451d5b6 prima: Trim operation classes to max supported in change station
+ ▪ 98e7402 prima: Fix VHT-80 IBSS stops beaconing
+ ▪ d3b101f msm: ipa: fix ioctl input param validation
+
+ ▪ project kernel/motorola/msm8226/
+ ▪ 8847127 ALSA: seq: Fix race at timer setup and close
+ ▪ 964fde8 ALSA: compress: fix an integer overflow check
+
+ ▪ project packages/apps/Jelly/
+ ▪ cc66a61 Jelly: Add WebChromeClientCompat
+ ▪ e3b22ba Jelly: Fix some lint warnings
+
+ ▪ project packages/apps/Settings/
+ ▪ 5d3664d Add Xiaomi MI6(sagit) maintainer (#812)
+
+ ▪ project packages/providers/MediaProvider/
+ ▪ 0f47b6e MediaProvider: Fix failure in android.provider.cts.MediaStore_FilesTest
+ ▪ 815436d Gallery2: Fix thumbnails of new edit photos display wrongly in Documents.
+ ▪ f3bd6a0 Music: Fix force closed when plug out the SD card while music is playing.
+ ▪ eb0378b MediaProvider: Fix SQLiteDiskIOException.
+ ▪ b619475 Revert "Fix check for existence of parent"
+ ▪ 21ce3cd Revert "MediaProvider: Fix where condition of delete queries"
+
+ ▼ 06/25/2017
+
+
+ ▪ project kernel/lge/g3/
+ ▪ 0409ec2 qcrypto: protect potential integer overflow.
+ ▪ 9b3b707 l2tp: fix racy SOCK_ZAPPED flag check in l2tp_ip{,6}_bind()
+ ▪ d40065b perf: Tighten (and fix) the grouping condition
+ ▪ eb34fb5 msm: vidc: Check validity of userspace address
+
+ ▪ project packages/apps/DUI/
+
+ ▪ project packages/apps/Dialer/
+
+ ▪ project packages/apps/Eleven/
+ ▪ 38c5aea Eleven: request record audio permission for visualizer
+
+ ▪ project packages/apps/Jelly/
+ ▪ 2d1bdcd Jelly: Add save form data setting
+ ▪ d2926c7 Jelly: add Do Not Track setting
+ ▪ 42d6446 Jelly: Add incognito mode shortcut
+ ▪ 69c2401 Jelly: Update android tools build
+
+ ▪ project packages/apps/OmniSwitch/
+
+ ▪ project packages/apps/PackageInstaller/
 
  ▪ project packages/apps/Settings/
 
- ▪ project packages/resources/devicesettings/
- ▪ 1935d69 Add fingerprint sleep strings
+ ▪ project packages/apps/Trebuchet/
+ ▪ 8b8de5f Trebuchet: Rename settings provider
 
  ▪ project packages/services/OmniJaws/
 
- ▼ 05/31/2017
+ ▪ project vendor/lge/
+ ▪ 14917ec msm8996: Fix HotwordEnrollment apk inclusion
+ ▪ 73dd94b msm8996: Add image stabilizer and video denoiser
 
+ ▼ 06/24/2017
 
- ▪ project external/stagefright-plugins/
- ▪ 4089877 FFmpegExtractor: Don't use our extractor when we agree with StageFright
 
  ▪ project frameworks/base/
- ▪ 39b9d5b Recents: Ensure Lock icon animates only when Dismiss icon is visible
- ▪ 8573690 Fix launch music player on headset connect on reboot
- ▪ 7b24b49 Recents:Optional lock to task icon in recents task view header [1/2]
- ▪ 3525359 Base:Add Lock task action to recents
 
- ▪ project hardware/qcom/display-caf/msm8960/
- ▪ d222af7 hwc: return correct color format string while layer dump
-
- ▪ project kernel/motorola/msm8226/
- ▪ 09cff47 ASoC: msm: qdsp6v2: set pointer to NULL after free.
- ▪ 5eede13 msm: vidc: Protect debug_buffer access in core_info_read with lock.
+ ▪ project packages/apps/Jelly/
+ ▪ eff2fd2 Open link in Incognito tab automatically when in Incognito mode
+ ▪ f7338cf Jelly: Enable safe browsing
 
  ▪ project packages/apps/Settings/
 
- ▪ project packages/apps/Snap/
- ▪ f68cddc SnapdragonCamera: Fix torch mode with continuous shot
- ▪ c737df5 Revert "Snap: CaptureModule: lock exposure also when precapture trigger is started"
- ▪ 09a7a0b SnapdragonCamera: Camera2 force close after focused
- ▪ 018fdd0 SnapdragonCamera: GPS location can't be turn On in camera settings
+ ▪ project packages/apps/SetupWizard/
+ ▪ 092d0fa Disable SetupWraith, the ATV SUW.
 
- ▪ project packages/apps/Terminal/
- ▪ 18225bd Terminal: all menu items should have their proper icon
- ▪ ca41ebc Terminal: update main theme color for improved readability
- ▪ 0ec9d32 Terminal: fix preference defaults
- ▪ 5d69fc4 Terminal: volume keys as up/down
+ ▪ project packages/services/Telephony/
+ ▪ 091ccb6 Fix Phone Service crash on MSIM devices as Guest user
 
- ▪ project vendor/cm/
- ▪ 46fc541 typo fixed (#92)
+ ▪ project vendor/motorola/
+ ▪ 7ea4a2e omap4-common: remove base64 blob
