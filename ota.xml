@@ -7,7 +7,7 @@
 			<RomUrl
 				id="rom"
 				title="Resurrection Remix (Peregrine) [Official]"
-				description="Download Resurrection Remix builds!">http://downloads.resurrectionremix.com/peregrine/RR-N-v5.8.5-20170926-peregrine-Final.zip</RomUrl>
+				description="Download Resurrection Remix builds!">https://sourceforge.net/projects/resurrectionremix/files/peregrine/RR-N-v5.8.5-20170926-peregrine-Final.zip/download</RomUrl>
 			<ChangelogUrl
 				id="changelog"
 				title="Changelog (September 26th, 2017)"
@@ -37,7 +37,7 @@
 			<RomUrl
 				id="rom"
 				title="Resurrection Remix (Falcon) [Official]"
-				description="Download Resurrection Remix builds!">http://downloads.resurrectionremix.com/falcon/RR-N-v5.8.5-20170927-falcon-Final-.zip</RomUrl>
+				description="Download Resurrection Remix builds!">https://sourceforge.net/projects/resurrectionremix/files/falcon/RR-N-v5.8.5-20170927-falcon-Final-.zip/download</RomUrl>
 			<ChangelogUrl
 				id="changelog"
 				title="Changelog (September 27th, 2017)"
