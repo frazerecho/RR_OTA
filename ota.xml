@@ -33,11 +33,11 @@
 				description="Download Google Apps!">http://opengapps.org</OpenGappsUrl>
 		</d850>
 		<falcon>
-			<Filename>RR-N-v5.8.5-20170927-falcon-Final</Filename>
+			<Filename>RR-N-v5.8.5-20171216-falcon-Final</Filename>
 			<RomUrl
 				id="rom"
 				title="Resurrection Remix (Falcon) [Official]"
-				description="Download Resurrection Remix builds!">https://sourceforge.net/projects/resurrectionremix/files/falcon/RR-N-v5.8.5-20170927-falcon-Final-.zip/download</RomUrl>
+				description="Download Resurrection Remix builds!">https://sourceforge.net/projects/resurrectionremix/files/falcon/RR-N-v5.8.5-20171216-falcon-Final.zip/download</RomUrl>
 			<ChangelogUrl
 				id="changelog"
 				title="Changelog (September 27th, 2017)"
