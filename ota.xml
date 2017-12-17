@@ -3,11 +3,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
 	<Stable>
 		<peregrine>
-			<Filename>RR-N-v5.8.5-20170925-peregrine-Final</Filename>
+			<Filename>RR-N-v5.8.5-20171217-peregrine-Final</Filename>
 			<RomUrl
 				id="rom"
 				title="Resurrection Remix (Peregrine) [Official]"
-				description="Download Resurrection Remix builds!">https://sourceforge.net/projects/resurrectionremix/files/peregrine/RR-N-v5.8.5-20170926-peregrine-Final.zip/download</RomUrl>
+				description="Download Resurrection Remix builds!">https://sourceforge.net/projects/resurrectionremix/files/peregrine/RR-N-v5.8.5-20171217-peregrine--Final.zip/download</RomUrl>
 			<ChangelogUrl
 				id="changelog"
 				title="Changelog (September 26th, 2017)"
