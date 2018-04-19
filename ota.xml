@@ -1,51 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
-	<Stable>
-		<peregrine>
-			<Filename>RR-N-v5.8.5-20171217-peregrine-Final</Filename>
-			<RomUrl
-				id="rom"
-				title="Resurrection Remix (Peregrine) [Official]"
-				description="Download Resurrection Remix builds!">https://sourceforge.net/projects/resurrectionremix/files/peregrine/RR-N-v5.8.5-20171217-peregrine--Final.zip/download</RomUrl>
-			<ChangelogUrl
-				id="changelog"
-				title="Changelog (September 26th, 2017)"
-				description="View Changelog!">https://raw.githubusercontent.com/frazerecho/RR_OTA/master/CHANGELOG.mkdn</ChangelogUrl>
-			<OpenGappsUrl
-				id="open_gapps"
-				title="Google Apps (OpenGApps)"
-				description="Download Google Apps!">http://opengapps.org</OpenGappsUrl>
-		</peregrine>
-		<d850>
-			<Filename>RR-N-v5.8.2-20170405-d850-Official</Filename>
-			<RomUrl
-				id="rom"
-				title="Resurrection Remix (ATT LG G3) [Official]"
-				description="Download Resurrection Remix builds!">rr.oadam11.com</RomUrl>
-			<ChangelogUrl
-				id="changelog"
-				title="Changelog (July 8th, 2017)"
-				description="View Changelog!">rr.oadam11.com</ChangelogUrl>
-			<OpenGappsUrl
-				id="open_gapps"
-				title="Google Apps (OpenGApps)"
-				description="Download Google Apps!">http://opengapps.org</OpenGappsUrl>
-		</d850>
-		<falcon>
-			<Filename>RR-N-v5.8.5-20171216-falcon-Final</Filename>
-			<RomUrl
-				id="rom"
-				title="Resurrection Remix (Falcon) [Official]"
-				description="Download Resurrection Remix builds!">https://sourceforge.net/projects/resurrectionremix/files/falcon/RR-N-v5.8.5-20171216-falcon-Final.zip/download</RomUrl>
-			<ChangelogUrl
-				id="changelog"
-				title="Changelog (September 27th, 2017)"
-				description="View Changelog!">https://raw.githubusercontent.com/frazerecho/RR_OTA/master/CHANGELOG.mkdn</ChangelogUrl>
-			<OpenGappsUrl
-				id="open_gapps"
-				title="Google Apps (OpenGApps)"
-				description="Download Google Apps!">http://opengapps.org</OpenGappsUrl>
-		</falcon>
+    <Stable>
+        <d850>
+            <Filename>RR-O-v6.0.0-20180413-d850-Official.zip</Filename>
+            <RomUrl
+                id="rom"
+                title="Resurrection Remix (ATT LG G3) [Official]"
+                description="Download Resurrection Remix builds!">https://androidfilehost.com/?fid=962187416754474898</RomUrl>
+            <ChangelogUrl
+                id="changelog"
+                title="Changelog (Feb 17th, 2018)"
+                description="View Changelog">https://github.com/ResurrectionRemix/android_vendor_resurrection/blob/oreo/CHANGELOG.mkdn</ChangelogUrl>
+           <OpenGappsUrl
+            	id="open_gapps"
+            	title="Google Apps (OpenGApps)"
+            	description="Download Google Apps!">http://opengapps.org</OpenGappsUrl>
+	</d850>
 	</Stable>
 </SlimOTA>
