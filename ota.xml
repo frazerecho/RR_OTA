@@ -2,11 +2,11 @@
 <SlimOTA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ota.xsd">
     <Stable>
         <d850>
-            <Filename>RR-O-v6.0.0-20180413-d850-Official.zip</Filename>
+            <Filename>RR-O-v6.0.0-20180512-d850-Official.zip</Filename>
             <RomUrl
                 id="rom"
                 title="Resurrection Remix (ATT LG G3) [Official]"
-                description="Download Resurrection Remix builds!">https://androidfilehost.com/?fid=962187416754474898</RomUrl>
+                description="Download Resurrection Remix builds!">https://mega.nz/#!XQJgzaLK!DesL4nt8VXwD6L0Ibh94YmsgOq1DYrY8DwsN3bfRjXs</RomUrl>
             <ChangelogUrl
                 id="changelog"
                 title="Changelog (Feb 17th, 2018)"
